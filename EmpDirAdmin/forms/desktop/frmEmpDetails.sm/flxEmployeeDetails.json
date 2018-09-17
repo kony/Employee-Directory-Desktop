@@ -1,0 +1,79 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "510px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s6cdb1fcc1dd48ebacbc0a686dc29bd9",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flxEmpId",
+        "lblHLine0",
+        "flxFirstName",
+        "lblHLine1",
+        "flxLastName",
+        "lblHLine2",
+        "flxDesignation",
+        "lblHLine3",
+        "flxDepartment",
+        "lblHLine4",
+        "flxReporting",
+        "lblHLine5",
+        "flxMobNumber",
+        "lblHLine6",
+        "flxWorkNumber",
+        "lblHLine7",
+        "flxEmail",
+        "blHLine8",
+        "flxLocation",
+        "lblHLine9"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxEmployeeDetails",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e073b921558346ddaea12a41aee4bcd7",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "EditProfile",
+    "pf": "frmEmpDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 35
+}

@@ -1,0 +1,78 @@
+{
+    "classname": "alertmsg",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d8c6aece57604b2fad9bdfd37efc2502",
+                    "paramList": [
+                        {
+                            "name": "title"
+                        }
+                    ],
+                    "propertyKey": "setTitle",
+                    "pw": {
+                        "displayName": "setTitle",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dca8ce1c40194c498c6df02458cefab4",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d11b9fc61d1740e597d85cd7919947f3",
+                    "paramList": [
+                        {
+                            "name": "msg"
+                        }
+                    ],
+                    "propertyKey": "setMessage",
+                    "pw": {
+                        "displayName": "setMessage",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dca8ce1c40194c498c6df02458cefab4",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d613a056828f4fc09d030ba835cd89c0",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onAlertFlexClick",
+                    "pw": {
+                        "displayName": "onAlertFlexClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dca8ce1c40194c498c6df02458cefab4",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konyemp.alertmsg",
+    "version": "1.0.0"
+}

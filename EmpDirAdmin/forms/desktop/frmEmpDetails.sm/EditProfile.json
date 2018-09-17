@@ -1,0 +1,75 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "308px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "48px"
+    },
+    "_skin_": "psd19bc8916e4011e8bfbd290fbe0bfa7d",
+    "_top_": {
+        "type": "string",
+        "value": "130px"
+    },
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "flxEditProfileHeader",
+        "lineDummy",
+        "flxEmployeeInfo",
+        "flxEmployeeDetails",
+        "lblFooter",
+        "Line2140305062251040",
+        "Line2140305061910736",
+        "Line2140304942859520",
+        "Line2140305061826032",
+        "Line2140305061827248",
+        "Line2140305061842224",
+        "Path3",
+        "Path3140304942388160",
+        "Path3140305061921568",
+        "Path3140305061921856"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "focusskin": "psd19bc8916e4011e8bfbd290fbe0bfa7d",
+    "id": "EditProfile",
+    "info": null,
+    "isvisible": true,
+    "kuid": "psd1888eb06e4011e8bfbd290fbe0bfa7d",
+    "layouttype": 4,
+    "minwidth": {
+        "type": "string",
+        "value": "600px"
+    },
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxRoot",
+    "pf": "frmEmpDetails",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 0
+}

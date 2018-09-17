@@ -1,0 +1,275 @@
+{
+    "classname": "listdetail",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "kuid": "d14814e329344b44bd9539b7048ceb56",
+                    "paramList": [],
+                    "propertyKey": "getData",
+                    "pw": {
+                        "displayName": "getData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e4c1c41085064cce8842cbad8ec0b280",
+                    "type": "event"
+                },
+                {
+                    "kuid": "bfa6395f631b4743b5a5e75581b9c17f",
+                    "paramList": [
+                        {
+                            "name": "records"
+                        }
+                    ],
+                    "propertyKey": "filterAndSetData",
+                    "pw": {
+                        "displayName": "filterAndSetData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e4c1c41085064cce8842cbad8ec0b280",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "kuid": "bf57e4dae88d4c628096bfbc8b2e3456",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "leftMenuClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "leftMenuClick",
+                        "srcWidget": "btnMenu",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "c1c4db38103244dcb79bbff5946598b1"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "bff872d4354d4694ab51fc1413144bdc",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "rightMenuClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "rightMenuClick",
+                        "srcWidget": "btnFilter",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b2c5de3cc5f048359b99d3036fceae30"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [
+                "General"
+            ],
+            "properties": [
+                "General"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "kuid": "jb9e8b7385ac468faaf7ff9d32f7292f",
+                    "originalPropertyKey": "searchList",
+                    "propertyIndex": 6,
+                    "propertyKey": "searchList",
+                    "pw": {
+                        "displayName": "Search ",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "e4c1c41085064cce8842cbad8ec0b280",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "profile.png",
+                    "kuid": "h0b5170e86f34bf69e193908de2dc0c6",
+                    "originalPropertyKey": "defaultProfile",
+                    "propertyIndex": 7,
+                    "propertyKey": "defaultProfile",
+                    "pw": {
+                        "displayName": "List Profile Image",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "e4c1c41085064cce8842cbad8ec0b280",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "cover.png",
+                    "kuid": "a5ade3b8593241328be9201352151528",
+                    "originalPropertyKey": "defaultCover",
+                    "propertyIndex": 8,
+                    "propertyKey": "defaultCover",
+                    "pw": {
+                        "displayName": "Detail Cover Image",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "e4c1c41085064cce8842cbad8ec0b280",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "kuid": "i2c20e925b9a4b38a9fa5cd4e1375cfa",
+                    "originalPropertyKey": "defaultStatus",
+                    "propertyIndex": 9,
+                    "propertyKey": "defaultStatus",
+                    "pw": {
+                        "displayName": "Status Icon Visibility",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "e4c1c41085064cce8842cbad8ec0b280",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "kuid": "hbe170f1b14b4969b7ccd73a14d45599",
+                    "originalPropertyKey": "hideHeader",
+                    "propertyIndex": 10,
+                    "propertyKey": "hideHeader",
+                    "pw": {
+                        "displayName": "Header",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "e4c1c41085064cce8842cbad8ec0b280",
+                    "type": "boolean",
+                    "value": "true/false"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "kuid": "j52227f4e9fe42938eebf11fc8a402f1",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "flxDictionaryVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Dictionary",
+                        "srcWidget": "flxDictionary",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "cc485c3fc655477e821c085119505854"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "b9a3117dd5e941c4b54f9e0b5e07320a",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 2,
+                    "propertyKey": "leftSrc",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Left Menu Icon",
+                        "srcWidget": "imgMenu",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "ba60d8362e11459d87a7650c9e0c3401"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "j885ff6596de4a67b08d574c0a4c6609",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 3,
+                    "propertyKey": "rightSrc",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Right Menu Icon",
+                        "srcWidget": "imgFilter",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "i0d4eb5cfa9f4ff28435a96a8baff506"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "g028f70c5dab4269ab4c0838c1099f9d",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "leftVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Left Menu Visibility",
+                        "srcWidget": "flxMenu",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b14768d8de0c45878fc812dc84d9dd93"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "e23c19e44e3d4093b53bcac137666c22",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 5,
+                    "propertyKey": "rightVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Right Menu Visibility",
+                        "srcWidget": "flxFilter",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b1aeac4d7d874f00925f877778e61480"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}
